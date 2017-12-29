@@ -165,7 +165,7 @@ public class MovingChickens extends JPanel implements Runnable {
                     {
                         JOptionPane.showMessageDialog(null, "YOU LOSE! \n Score: " + score);
                         
-                        System.
+                        System.exit(0);
                     }
                 }
                 
